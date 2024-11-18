@@ -2,3 +2,4 @@
 !.jest
 !.vscode
 !.dist
+generators/

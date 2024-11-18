@@ -7,7 +7,7 @@ import eslintConfigPrettier from 'eslint-config-prettier';
 import plugints from '@typescript-eslint/eslint-plugin';
 
 export default tseslint.config(
-  { ignores: ['dist', 'node_modules'] },
+  { ignores: ['dist', 'node_modules', 'generators'] },
   {
     extends: [js.configs.recommended, ...tseslint.configs.recommended],
     files: ['**/*.{ts,tsx}'],
